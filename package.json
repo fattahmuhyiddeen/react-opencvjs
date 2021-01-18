@@ -1,6 +1,6 @@
 {
   "name": "react-opencvjs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Bind OpenCV.js on demand in ReactJS",
   "main": "index.js",
   "scripts": {
