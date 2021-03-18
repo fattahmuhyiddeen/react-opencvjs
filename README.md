@@ -11,10 +11,11 @@
 
 ```javascript
 useEffect(()=>{
-  openCV(
-    () => console.log('open cv loaded'),
-    () => console.log('open cv failed to load')
-  )
+  openCV({
+    onLoaded: () => console.log('open cv loaded'),
+    onFailed: () => console.log('open cv failed to load'),
+    version: '4.5.1'
+  })
 },[])
 
 // if open cv loaded

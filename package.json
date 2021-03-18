@@ -1,6 +1,6 @@
 {
   "name": "react-opencvjs",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Bind OpenCV.js on demand in ReactJS",
   "main": "index.js",
   "scripts": {
@@ -11,7 +11,12 @@
     "type": "git",
     "url": "git+https://github.com/fattahmuhyiddeen/react-opencvjs.git"
   },
-  "keywords": ["react","opencv","opencvjs","dynamic"],
+  "keywords": [
+    "react",
+    "opencv",
+    "opencvjs",
+    "dynamic"
+  ],
   "author": "",
   "license": "MIT",
   "bugs": {

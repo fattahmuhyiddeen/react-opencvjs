@@ -1,8 +1,7 @@
 import injectScript from 'react-inject-script';
 
-const OPENCV_URL = 'https://docs.opencv.org/master/opencv.js';
-
-export default (onLoaded = () => null, onFailed = () => null) => {
+export default ({ onLoaded = () => null, onFailed = () => null, version = 'master' }) => {
+  const OPENCV_URL = `https://docs.opencv.org/${version}/opencv.js`;
   injectScript('opencv-injected-js', OPENCV_URL).then(() => {
     console.log(`Success loading ${OPENCV_URL}`);
     // eslint-disable-next-line no-undef
